@@ -1,0 +1,24 @@
+.sale {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 231px;
+    background: url('/img/sale_bg_img.png') repeat;
+    padding: 5px;
+}
+
+.sale_container {
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0 auto;
+}
+
+.sale_text-color {
+    color: #EC1E79;
+    font-weight: 700;
+}
+
+.sale__block {
+    background: url('/img/sale_bg_img.png') repeat-x;
+}
