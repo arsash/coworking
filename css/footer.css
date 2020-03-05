@@ -58,39 +58,39 @@
 }
 
 .vk {
-    background-image: url('/img/vk_icon.png');
+    background-image: url('../img/vk_icon.png');
     cursor: pointer;
 }
 
 .vk:hover {
-    background-image: url('/img/vk_hover.png');
+    background-image: url('../img/vk_hover.png');
 }
 
 .fb {
-    background-image: url('/img/fb_icon.png');
+    background-image: url('../img/fb_icon.png');
     cursor: pointer;
 }
 
 .fb:hover {
-    background-image: url('/img/fb_hover.png');
+    background-image: url('../img/fb_hover.png');
 }
 
 .tw {
-    background-image: url('/img/tw_icon.png');
+    background-image: url('../img/tw_icon.png');
     cursor: pointer;
 }
 
 .tw:hover {
-    background-image: url('/img/tw_hover.png');
+    background-image: url('../img/tw_hover.png');
 }
 
 .mail {
-    background-image: url('/img/mail_icon.png');
+    background-image: url('../img/mail_icon.png');
     cursor: pointer;
 }
 
 .mail:hover {
-    background-image: url('/img/mail_hover.png');
+    background-image: url('../img/mail_hover.png');
 }
 
 .social__text {
