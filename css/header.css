@@ -1,0 +1,122 @@
+.header__container {
+    width: 100%;
+    background-color: #27273E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.header {
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 200px;
+}
+
+.heaeder__image-content {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.heaeder__contacts-text {
+    color: #EC1E79;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.heaeder__contacts-text:hover {
+    color: #93a8d2;
+    text-decoration: none;
+}
+
+.header__contacts {
+    text-align: right;
+}
+
+.heaeder__contacts-tel {
+    color: white;
+    font-size: 21px;
+    font-family: "Gotham Pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.hidden__works {
+    font-size: 14px;
+    line-height: 18px;
+    color: #EC1E79;
+    font-weight: 900;
+}
+
+.hidden__lunch {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 900;
+}
+
+.hidden__block {
+    width: 160px;
+    position: absolute;
+    top: 50px;
+    right: 125px;
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    opacity: 0;
+}
+
+.heaeder__contacts-text:hover ~ .hidden__block {
+    opacity: 1;
+    transition: .5s;
+}
+
+.heaeder__contacts-text:hover ~ .triangle {
+    opacity: 1;
+    transition: .5s;
+}
+
+.triangle {
+    border: 10px solid transparent;
+    width: 0;
+    height: 0;
+    border-bottom-color: #fff;
+    float: right;
+    margin-right: 5px;
+    margin-top: 2px;
+    opacity: 0;
+}
+
+.top__block {
+    width: 250px;
+    margin-right: 20px;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.top__block-border {
+    border: 1px solid #e8e8ec;
+    padding: 15px;
+}
+
+.top__block-text {
+    font-size: 18px;
+}
+
+.aside__container {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+}
+
+.top__tarif-header {
+    font-size: 18px;
+}

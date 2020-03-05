@@ -1,0 +1,43 @@
+.intro__block {
+    position: relative;
+}
+
+.intro__block .intro__image {
+    width: 100%;
+}
+
+.intro_logo {
+    width: 150px;
+    margin: 0 auto;
+    position: absolute;
+    top: 35%;
+    left: 47%;
+    transform: translate(-35%, -47%);
+}
+
+.btn {
+    width: 180px;
+    color: #EC1E79;
+    border: 2px solid #EC1E79;
+    padding: 20px;
+    margin: 120px auto;
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 47%;
+    transform: translate(-35%, -47%);
+}
+
+.btn:hover {
+    background-color: #EC1E79;
+}
+
+.btn a {
+    text-decoration: none;
+    padding: 15px 5px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
