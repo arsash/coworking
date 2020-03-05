@@ -20,5 +20,5 @@
 }
 
 .sale__block {
-    background: url('/img/sale_bg_img.png') repeat-x;
+    background: url('../img/sale_bg_img.png') repeat-x;
 }
